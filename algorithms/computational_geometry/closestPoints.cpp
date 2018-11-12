@@ -1,5 +1,3 @@
-//testing brute force
-
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -7,11 +5,15 @@
 #include <string>
 #include <iomanip>
 #include <algorithm>
+
+
 using namespace std;
+
 
 typedef long int lint;
 
 typedef vector<pair<lint, lint>>::iterator vec_iter;
+
 
 double distance(const pair<lint, lint>& x, const pair<lint, lint>& y) {
     return sqrt(pow((x.first - y.first), 2)+ pow((x.second - y.second), 2));
