@@ -24,8 +24,8 @@ double distance(const lint& greatest, const lint& smallest) {
 }
 
 bool sortbysec(const pair<int,int> &a, const pair<int,int> &b) {
-    return (a.second < b.second); 
-} 
+    return (a.second < b.second);
+}
 
 double getYLine(const vec_iter& x_start, const lint& n){
     return ((x_start+(n/2)-1)->first + (x_start+(n/2))->first) / 2.;
@@ -38,7 +38,7 @@ double mergeSides(const vec_iter& x_begin, const vec_iter& x_end, const lint& n,
     for (vec_iter i = x_begin+(n/2); i < x_end; i++){
         if (distance(i->first, y) > min_d){
             break;
-        } 
+        }
         counter++;
     }
     vector<pair<lint, lint>> x(x_begin, x_end);
@@ -48,7 +48,7 @@ double mergeSides(const vec_iter& x_begin, const vec_iter& x_end, const lint& n,
     for (int i = (n/2)-1; i >= 0; i--){
         if (distance(y, x[i].first) > min_d){
             break;
-        } 
+        }
         upper = x[i].second + min_d;
         lower = x[i].second - min_d;
         vec_iter start = partition_point(x.begin()+(n/2), x.begin()+(n/2)+counter, [&lower](const pair<int, int>& box) -> 
@@ -76,8 +76,8 @@ double min_distance(const vec_iter& begin, const vec_iter& end) {
                 min_distance = current_distance;
         }
     }
-    
-    return min_distance;    
+
+    return min_distance;
 }
 
 double closestDistance(const vec_iter& start, const vec_iter& finish, const int& n) {
@@ -100,7 +100,7 @@ int main() {
         cin >> x >> y;
         points.push_back(make_pair(x, y));
     }
-    
+
     sort(points.begin(), points.end());
 
     cout << setprecision(20) << closestDistance(points.begin(), points.end() , n) << endl;
