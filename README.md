@@ -1,9 +1,9 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![license](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://github.com/lgruelas/Cpp-snipptes/blob/master/LICENSE)
-[![Build Status](https://api.travis-ci.com/lgruelas/Cpp-snipptes.svg?branch=master)](https://travis-ci.com/lgruelas/Cpp-snippets)
+[![Build Status](https://api.travis-ci.com/lgruelas/Cpp-snipptes.svg?branch=master)](https://travis-ci.com/lgruelas/Cpp-snipptes)
 
 
-# Cpp-snipptes
+# Cpp-snippets
 
 ![C++ master race](assets/gcc.png?raw=true "gcc")
 
