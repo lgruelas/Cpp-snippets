@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/327029a36c544d6eaa2343c7a5b3e04d)](https://app.codacy.com/manual/lgruelas/Cpp-snippets?utm_source=github.com&utm_medium=referral&utm_content=lgruelas/Cpp-snippets&utm_campaign=Badge_Grade_Dashboard)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![license](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://github.com/lgruelas/Cpp-snipptes/blob/master/LICENSE)
 [![Build Status](https://api.travis-ci.com/lgruelas/Cpp-snippets.svg?branch=master)](https://travis-ci.com/lgruelas/Cpp-snippets)
