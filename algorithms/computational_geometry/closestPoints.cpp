@@ -35,7 +35,7 @@ double mergeSides(const vec_iter& x_begin, const vec_iter& x_end, const lint& n,
     double y = getYLine(x_begin, n);
     lint counter = 0;
     double min_new = min_d;
-    for (vec_iter i = x_begin+(n/2); i < x_end; i++){
+    for (vec_iter i = x_begin+(n/2); i < x_end; ++i){
         if (distance(i->first, y) > min_d){
             break;
         }
@@ -53,7 +53,7 @@ double mergeSides(const vec_iter& x_begin, const vec_iter& x_end, const lint& n,
         lower = x[i].second - min_d;
         vec_iter start = partition_point(x.begin()+(n/2), x.begin()+(n/2)+counter, [&lower](const pair<int, int>& box) -> 
         bool { return box.second < lower; });
-        for (vec_iter j = start; j < x.begin()+(n/2)+counter; j++){
+        for (vec_iter j = start; j < x.begin()+(n/2)+counter; ++j){
             if (j->second > upper) {
                 break;
             }
@@ -69,8 +69,8 @@ double mergeSides(const vec_iter& x_begin, const vec_iter& x_end, const lint& n,
 double min_distance(const vec_iter& begin, const vec_iter& end) {
     double min_distance = HUGE_VAL;
     double current_distance;
-    for (vec_iter i = begin; i < end; i++){
-        for (vec_iter j = i+1; j < end; j++){
+    for (vec_iter i = begin; i < end; ++i){
+        for (vec_iter j = i+1; j < end; ++j){
             current_distance = distance(*i, *j);
             if (min_distance > current_distance)
                 min_distance = current_distance;
