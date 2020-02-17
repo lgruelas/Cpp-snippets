@@ -1,7 +1,7 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![license](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://github.com/lgruelas/Cpp-snipptes/blob/master/LICENSE)
 [![Build Status](https://api.travis-ci.com/lgruelas/Cpp-snippets.svg?branch=master)](https://travis-ci.com/lgruelas/Cpp-snippets)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cebd2319795d4603b609a9a277228b0d)](https://www.codacy.com/manual/lgruelas/Cpp-snippets?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lgruelas/Cpp-snippets&amp;utm_campaign=Badge_Grade)
 
 # Cpp-snippets
 
@@ -15,12 +15,11 @@ I have done this to my better understanding, but I made it public in case that t
 
 ## Table of contents
 
-- [Cpp-snipptes](#cpp-snipptes)
+- [Cpp-snippets](#cpp-snippets)
   - [Table of contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installing](#installing)
-    - [Installing](#installing-1)
   - [Built With](#built-with)
   - [Authors](#authors)
   - [License](#license)
@@ -28,27 +27,26 @@ I have done this to my better understanding, but I made it public in case that t
   - [List of algorithms](#list-of-algorithms)
     - [Computational geometry](#computational-geometry)
 
-## Getting Started
+    - [Built With](#built-with)
+    - [Authors](#authors)
+    - [License](#license)
+    - [Project Status](#project-status)
+    - [List of algorithms](#list-of-algorithms)
+      - [Computational geometry](#computational-geometry)
 
-You can choose to install the function package locally or in a virtualenv, bellow are the instuctions for the virtualenv.
+## Getting Started
 
 ### Prerequisites
 
-
 ### Installing
-
-
-### Installing
-
 
 ## Built With
 
-* [C++17](https://isocpp.org/)
-
+  - [C++17](https://isocpp.org/)
 
 ## Authors
 
-* **Germán Ruelas** - *Developer* - [GitHub](https://github.com/lgruelas)
+  - **Germán Ruelas** - *Developer* - [GitHub](https://github.com/lgruelas)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -63,5 +61,5 @@ I'm starting it.
 ## List of algorithms
 
 ### Computational geometry
-* Efficient algorithm to find minium distance between two points in a n points vector.
-* Efficient algorithm to find the Convex Hull of a set of points in R2.
+  - Efficient algorithm to find minium distance between two points in a n points vector.
+  - Efficient algorithm to find the Convex Hull of a set of points in R2.
