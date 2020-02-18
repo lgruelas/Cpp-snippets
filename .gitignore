@@ -5,6 +5,11 @@ build*
 *CMakeFiles*
 Makefile
 
+*_run
+
+# Unittest
+googletest/
+
 # Prerequisites
 *.d
 

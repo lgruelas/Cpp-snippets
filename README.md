@@ -20,6 +20,8 @@ I have done this to my better understanding, but I made it public in case that t
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installing](#installing)
+    - [Usage](#usage)
+    - [Unittest](#unittest)
   - [Built With](#built-with)
   - [Authors](#authors)
   - [License](#license)
@@ -37,8 +39,20 @@ I have done this to my better understanding, but I made it public in case that t
 ## Getting Started
 
 ### Prerequisites
+  - [Cmake](https://cmake.org/)
 
 ### Installing
+This project is mantained with `Cmake` so it should be as easy as doing:
+
+  ```bash
+    cmake .
+  ```
+
+### Usage
+
+### Unittest
+The unit test are working with the GoogleTest Framewokr, to run them you should use:
+
 
 ## Built With
 

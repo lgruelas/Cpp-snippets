@@ -1,4 +1,5 @@
 #include <iostream>
+#include "geometric_classes/Point2D.hpp"
 
 using namespace std;
 
